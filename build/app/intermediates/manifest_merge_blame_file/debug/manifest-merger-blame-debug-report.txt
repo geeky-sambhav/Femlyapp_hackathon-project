@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mad_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->[:geolocator] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:geolocator] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:24:5-79
+16-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:24:22-76
+17
+18    <application
+18-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:3:4-40:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\4180b1aea04013d4964b92a9fcdd9631\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:5:9-43
+22        android:label="Femly" >
+22-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:4:9-30
+23        <activity
+23-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:6:9-34:20
+24            android:name="com.example.mad_project.MainActivity"
+24-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:7:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:10:13-163
+26            android:hardwareAccelerated="true"
+26-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:11:13-47
+27            android:launchMode="singleTop"
+27-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:8:13-43
+28            android:theme="@style/LaunchTheme"
+28-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:9:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:12:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:17:13-20:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:18:15-70
+39                android:resource="@style/NormalTheme" />
+39-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:19:15-52
+40            <!--
+41                 Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <meta-data
+47-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:26:13-29:17
+48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+48-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:27:15-79
+49                android:resource="@drawable/launch_background" />
+49-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:28:15-61
+50
+51            <intent-filter>
+51-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:30:13-33:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:31:17-68
+52-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:31:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:32:17-76
+54-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:32:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:37:9-39:33
+62            android:name="flutterEmbedding"
+62-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:38:13-44
+63            android:value="2" />
+63-->C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\android\app\src\main\AndroidManifest.xml:39:13-30
+64
+65        <service
+65-->[:firebase_database] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[:firebase_database] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:66:13-37
+69            <meta-data
+69-->[:firebase_database] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+70-->[:firebase_database] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_database] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+72            <meta-data
+72-->[:cloud_firestore] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+73-->[:cloud_firestore] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:cloud_firestore] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[:firebase_auth] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+76-->[:firebase_auth] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_auth] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:firebase_core] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+79-->[:firebase_core] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_core] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:67:13-69:85
+82                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+82-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:68:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:69:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\943222ddf1e367dab40188789f2b3a94\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:20:13-22:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\943222ddf1e367dab40188789f2b3a94\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:21:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\943222ddf1e367dab40188789f2b3a94\transformed\jetified-firebase-firestore-24.2.2\AndroidManifest.xml:22:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\8d5306a2064f02886dc7efcad8c1b21c\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+88-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\8d5306a2064f02886dc7efcad8c1b21c\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-database:20.0.5] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\8d5306a2064f02886dc7efcad8c1b21c\transformed\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+90        </service>
+91
+92        <activity
+92-->[:url_launcher_android] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+93            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+93-->[:url_launcher_android] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+94            android:exported="false"
+94-->[:url_launcher_android] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+95            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+95-->[:url_launcher_android] C:\Users\Sambhav Gandhi\Desktop\girlify after videos\Girlify-master\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+96        <activity
+96-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:27:9-44:20
+97            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+97-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:28:13-80
+98            android:excludeFromRecents="true"
+98-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:29:13-46
+99            android:exported="true"
+99-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:30:13-36
+100            android:launchMode="singleTask"
+100-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:31:13-44
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+101-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:32:13-72
+102            <intent-filter>
+102-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:33:13-43:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+103-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+105-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+106-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+107
+108                <data
+108-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+109                    android:host="firebase.auth"
+109-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+110                    android:path="/"
+110-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+111                    android:scheme="genericidp" />
+111-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:45:9-62:20
+115            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+115-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:46:13-79
+116            android:excludeFromRecents="true"
+116-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:47:13-46
+117            android:exported="true"
+117-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:48:13-36
+118            android:launchMode="singleTask"
+118-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:49:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:50:13-72
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:51:13-61:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+121-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+123-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+124-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+125
+126                <data
+126-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+127                    android:host="firebase.auth"
+127-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+128                    android:path="/"
+128-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+129                    android:scheme="recaptcha" />
+129-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\df63383acef0f3f3ab199a1c368338fa\transformed\jetified-firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+130            </intent-filter>
+131        </activity>
+132
+133        <provider
+133-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+134            android:name="com.google.firebase.provider.FirebaseInitProvider"
+134-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+135            android:authorities="com.example.mad_project.firebaseinitprovider"
+135-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+137            android:exported="false"
+137-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+138            android:initOrder="100" />
+138-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\519c9423f86ab6fe0c26c698edd62ef2\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+139
+140        <activity
+140-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7dae7ee9df38392f4a650c69661d4014\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+141-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7dae7ee9df38392f4a650c69661d4014\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7dae7ee9df38392f4a650c69661d4014\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7dae7ee9df38392f4a650c69661d4014\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+144
+145        <meta-data
+145-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7b788e5aa3c797fb8292bc64daa56915\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+146            android:name="com.google.android.gms.version"
+146-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7b788e5aa3c797fb8292bc64daa56915\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+147            android:value="@integer/google_play_services_version" />
+147-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\7b788e5aa3c797fb8292bc64daa56915\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+148
+149        <uses-library
+149-->[androidx.window:window:1.0.0-beta04] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\515300bdb9df33d1831da8704ee258d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+150            android:name="androidx.window.extensions"
+150-->[androidx.window:window:1.0.0-beta04] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\515300bdb9df33d1831da8704ee258d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+151            android:required="false" />
+151-->[androidx.window:window:1.0.0-beta04] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\515300bdb9df33d1831da8704ee258d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+152        <uses-library
+152-->[androidx.window:window:1.0.0-beta04] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\515300bdb9df33d1831da8704ee258d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+153            android:name="androidx.window.sidecar"
+153-->[androidx.window:window:1.0.0-beta04] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\515300bdb9df33d1831da8704ee258d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+154            android:required="false" />
+154-->[androidx.window:window:1.0.0-beta04] C:\Users\Sambhav Gandhi\.gradle\caches\transforms-3\515300bdb9df33d1831da8704ee258d2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+155    </application>
+156
+157</manifest>

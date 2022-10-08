@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "682377630566",
+    "project_id": "girlify-4a8ba",
+    "storage_bucket": "girlify-4a8ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682377630566:android:3bd2d714b79239c9dbaea7",
+        "android_client_info": {
+          "package_name": "com.example.mad_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682377630566-vhkn84ojh16pgh9hb8gerir5dlg0htbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDj4GK1-2uULDcD6ErjQ4-8LhyhPNPNPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682377630566-vhkn84ojh16pgh9hb8gerir5dlg0htbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

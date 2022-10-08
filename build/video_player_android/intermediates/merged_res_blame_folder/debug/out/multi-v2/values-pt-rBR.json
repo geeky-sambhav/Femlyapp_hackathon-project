@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Sambhav Gandhi\\Desktop\\girlify after videos\\Girlify-master\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sambhav Gandhi\\.gradle\\caches\\transforms-3\\4180b1aea04013d4964b92a9fcdd9631\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Sambhav Gandhi\\Desktop\\girlify after videos\\Girlify-master\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sambhav Gandhi\\.gradle\\caches\\transforms-3\\4180b1aea04013d4964b92a9fcdd9631\\transformed\\core-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
