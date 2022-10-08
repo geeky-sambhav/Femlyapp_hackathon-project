@@ -6,14 +6,13 @@
 ## Team Number: 32
 
 ### Basic Idea:
-Every girl around age goes into puberty and till menopause which is generally around 50 face the issue of periods.
-Open discussion on this topic is still embarrassing in our societies, a woman facing a problem related to the menstrual cycle feels ashamed of it and continues to bear it which creates a big problem. To create awareness among our half population and to make them feel that they are not the only person facing these problems.
+Fem means feminine and together with ly it sounds like family.Femly is an all in one app for women which includes period tracking,self defence,videos etc.
 
 ### Key Features: 
 
 - Verification using OTP
 - Period tracking
-- Recomend videos 
+- Recomended videos 
 - Self defense moves
 - FAQs
 
